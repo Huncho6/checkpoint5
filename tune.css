@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "oswald", sans-serif;
+    font-weight: 300;
+    background-color: #C6C6C7;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C6C6C7;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.header-name{
+  display: flex;
+  gap: 80px;
+}
+
+.featues{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.ib{
+    color: red;
+}
+.ex{
+    color: red;
+}
+.cv{
+    color: red;
+}
+a{
+    color: red;
+}
+
+
+.h2{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width:768px){
+    .categories{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+      }
+}
+ 
+
+.categories-sec{
+    background-color: black;
+    width: 300px;
+    height: 500px;
+    padding-left: 30px;
+    border-radius: 5%;
+    border-color: #C6C6C7;
+}
+
+.categories h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    color: #C6C6C7;
+}
+
+.post-news{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 200px;
+    padding-top: 5px;
+    border-bottom: black solid 1px;
+}
+ 
+ 
+.post h2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.news-reg{
+    display: flex;
+    justify-content: center;
+}
+
+.form-info{
+    width: 200px;
+    height: 30px;
+    padding-right: 5px;
+}
+
+
+footer{
+    background-color: black;
+    margin-top: 50px;    
+}
+
+.footer_content{
+    text-align: center;
+    color: #C6C6C7;
+}
+
+.footer_content_icons{
+     padding: 20px;
+     display: flex;
+     justify-content: center;
+     font-size: 30px;
+     gap: 10px;
+     color: #C6C6C7;
+}
